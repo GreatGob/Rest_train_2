@@ -4,7 +4,7 @@ from rest_framework.response import Response
 from snippets.models import Snippet
 from snippets.serializers import SnippetSerializer
 
-# Create your views here.
+# Create api_view views here.
 
 @api_view(['GET', 'POST'])
 def snippet_list(request, format= None):
